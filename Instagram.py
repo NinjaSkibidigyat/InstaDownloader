@@ -4,6 +4,8 @@ from selenium import webdriver
 import time
 import os
 
+## Author = Sohaib
+
 # Asking the user to input the url
 link = input('Enter Instagram URL==> ')
 
