@@ -27,6 +27,7 @@ soup = BeautifulSoup(driver.page_source, 'lxml')
 
 images = soup.find_all('img', class_='FFVAD')
 
+# naming each image with numbers starting from 0
 number = 0
 for image in images:
     name = image['alt']
